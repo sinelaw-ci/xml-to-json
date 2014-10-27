@@ -1,3 +1,6 @@
 language: haskell
 notifications:
   email: false
+install:
+  - cabal install Cabal
+  
