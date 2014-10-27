@@ -2,5 +2,5 @@ language: haskell
 notifications:
   email: false
 install:
-  - cabal install Cabal
+  - cabal install Cabal && cabal install --only-dependencies --enable-tests
   
